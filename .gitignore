@@ -1,3 +1,7 @@
 __pycache__/*
 *.pdf
 *.pyc
+*.png
+*.svg
++object.svg
++image.svg
