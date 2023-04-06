@@ -17,7 +17,7 @@ def test():
     heights = list(range(-int(lens.maximum_height*.9), int(lens.maximum_height*.9), 1))
     momenta = []
     par_momenta = []
-    plotter = ScenePlotter("test.pdf", 1280, 480, [0, 100, -30, 30])
+    plotter = ScenePlotter("test.svg", [0, 200, -30, 30], resolution=10)
     for height in heights:
         ray = Ray((0, height, 0), (0, 0, 1), 1.)
         lens.trace_ray(ray)

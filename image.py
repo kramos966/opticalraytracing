@@ -16,7 +16,7 @@ def main():
 
     lens = SphericalLens(n, R1, R2, position, thickness)
 
-    plotter = ScenePlotter("object.pdf", [0, 200, -30, 30], resolution=10)
+    plotter = ScenePlotter("object.svg", [0, 200, -30, 30], resolution=10)
     betas = [i/100 for i in range(-10, 10)]
     obj_position = (0, -10, 0)
     for beta in betas:
