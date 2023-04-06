@@ -1,6 +1,5 @@
 # Optical Ray Tracing
 
-![Example of an afocal ray traced optical system](test.svg)
 ![Imaging system with spherical surfaces](object.svg)
 
 Small program to perform ray tracing on spherical lenses (only convex ones supported now).
